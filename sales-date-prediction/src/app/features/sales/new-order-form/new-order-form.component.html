@@ -1,0 +1,86 @@
+<h2 mat-dialog-title>Nueva Orden - {{ customer.customerName }}</h2>
+<mat-dialog-content [formGroup]="form">
+
+  <form (ngSubmit)="save()" class="form-grid">
+    <mat-form-field>
+      <mat-label>Empleado</mat-label>
+      <input matInput formControlName="empId" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Transportista</mat-label>
+      <input matInput formControlName="shipperId" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Nombre destinatario</mat-label>
+      <input matInput formControlName="shipName" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Dirección</mat-label>
+      <input matInput formControlName="shipAddress" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Ciudad</mat-label>
+      <input matInput formControlName="shipCity" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>País</mat-label>
+      <input matInput formControlName="shipCountry" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Fecha Orden</mat-label>
+      <input matInput [matDatepicker]="orderDate" formControlName="orderDate" required>
+      <mat-datepicker-toggle matSuffix [for]="orderDate"></mat-datepicker-toggle>
+      <mat-datepicker #orderDate></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Fecha requerida</mat-label>
+      <input matInput [matDatepicker]="requiredDate" formControlName="requiredDate" required>
+      <mat-datepicker-toggle matSuffix [for]="requiredDate"></mat-datepicker-toggle>
+      <mat-datepicker #requiredDate></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Fecha de envío</mat-label>
+      <input matInput [matDatepicker]="shippedDate" formControlName="shippedDate" required>
+      <mat-datepicker-toggle matSuffix [for]="shippedDate"></mat-datepicker-toggle>
+      <mat-datepicker #shippedDate></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Flete</mat-label>
+      <input matInput type="number" formControlName="freight" required>
+    </mat-form-field>
+
+    <mat-divider></mat-divider>
+    <h3>Producto</h3>
+
+    <mat-form-field>
+      <mat-label>ID Producto</mat-label>
+      <input matInput formControlName="productId" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Precio unitario</mat-label>
+      <input matInput type="number" formControlName="unitPrice" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Cantidad</mat-label>
+      <input matInput type="number" formControlName="qty" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Descuento</mat-label>
+      <input matInput type="number" formControlName="discount">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Crear Orden</button>
+  </form>
+</mat-dialog-content>

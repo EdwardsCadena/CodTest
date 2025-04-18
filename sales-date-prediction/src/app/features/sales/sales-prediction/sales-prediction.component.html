@@ -1,0 +1,35 @@
+<mat-form-field appearance="fill">
+    <mat-label>Buscar cliente</mat-label>
+    <input matInput (input)="onInputChange($event)" placeholder="Customer Name" />
+
+  </mat-form-field>
+  
+  <table mat-table [dataSource]="customers" class="mat-elevation-z8">
+  
+    <ng-container matColumnDef="customerName">
+      <th mat-header-cell *matHeaderCellDef> Cliente </th>
+      <td mat-cell *matCellDef="let c"> {{c.customerName}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="lastOrderDate">
+      <th mat-header-cell *matHeaderCellDef> Última Orden </th>
+      <td mat-cell *matCellDef="let c"> {{c.lastOrderDate}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="nextPredictedOrder">
+      <th mat-header-cell *matHeaderCellDef> Próxima Orden </th>
+      <td mat-cell *matCellDef="let c"> {{c.nextPredictedOrder}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef> Acciones </th>
+      <td mat-cell *matCellDef="let c">
+        <button mat-button color="primary" (click)="viewOrders(c)">View Orders</button>
+        <button mat-button color="accent" (click)="createOrder(c)">New Order</button>
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  

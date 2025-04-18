@@ -1,0 +1,11 @@
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\bin\Debug\net8.0\SalesPrediction.Core.deps.json
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\bin\Debug\net8.0\SalesPrediction.Core.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\bin\Debug\net8.0\SalesPrediction.Core.pdb
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.AssemblyInfoInputs.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.AssemblyInfo.cs
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.csproj.CoreCompileInputs.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\refint\SalesPrediction.Core.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\SalesPrediction.Core.pdb
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Core\obj\Debug\net8.0\ref\SalesPrediction.Core.dll

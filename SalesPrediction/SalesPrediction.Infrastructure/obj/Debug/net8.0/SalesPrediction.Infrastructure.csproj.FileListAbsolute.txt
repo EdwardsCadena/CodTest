@@ -1,0 +1,17 @@
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Infrastructure.deps.json
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Infrastructure.runtimeconfig.json
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Infrastructure.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Infrastructure.pdb
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Core.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\bin\Debug\net8.0\SalesPrediction.Core.pdb
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.AssemblyInfo.cs
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPre.61A740ED.Up2Date
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\refint\SalesPrediction.Infrastructure.dll
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.pdb
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\SalesPrediction.Infrastructure.genruntimeconfig.cache
+C:\Users\elect\source\repos\SalesPrediction\SalesPrediction.Infrastructure\obj\Debug\net8.0\ref\SalesPrediction.Infrastructure.dll
